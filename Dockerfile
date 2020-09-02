@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.12
 EXPOSE 9000/tcp
 
 RUN apk add --no-cache php7 php7-fpm \
